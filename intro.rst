@@ -100,21 +100,24 @@ Visual Studio 2015為主來示範。
 ~~~~~~~~
 
 1. 在下載好的檔案 vs2015.com\_cht.iso 上點兩下來掛接光碟映象檔
-2. 點開 vs\_community.exe
-3. 在畫面中選擇預設安裝，並點按安裝即可。
+2. 點開光碟中的 vs\_community.exe
+3. 在安裝過程中選擇預設，並點按安裝
+4. 在 Visual Studio 2015 安裝完畢之後，下載並安裝最新的\ `網路核心（.Net
+   Core）程式 <http://go.microsoft.com/fwlink/?LinkID=827546>`__
+5. 泡杯咖啡，回來就大功告成了
 
 .. figure:: _static/install.jpg
-   :alt: 點選預設安裝類型
+   :alt: VS 2015 安裝程式中點選預設安裝類型
 
-   點選預設安裝類型
+   VS 2015 安裝程式中點選預設安裝類型
 
 如果安裝遇到困難，個人經驗是多點選幾次重試就可以成功，或者先將作業系統重灌後再安裝，如果有其他問題可以在下方留言大家討論。
 
 額外軟體
 ~~~~~~~~
 
-如果你安裝的是最新版本的 Visual Studio，網路核心（.Net
-Core）應該也同時安裝好了，如果之後操作發現沒有相對應的版本，或顯示缺少某些版本，可以在這裡下載軟體：
+如果你安裝好最新版本的 Visual
+Studio和網路核心就可以繼續閱讀本指引，如果之後操作發現沒有相對應的版本，或顯示缺少某些版本，可以在這裡下載軟體：
 
 網路核心 1.0.1 及 VS 2015 工具預覽 2.0.2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -162,7 +165,7 @@ Core）應該也同時安裝好了，如果之後操作發現沒有相對應的�
 
 .. rubric:: 其他參考網站
 
--  開發軟體 Visual Studio 的介紹，請前往
-   `官方網頁 <https://www.visualstudio.com/zh-hant/>`__\ 。
--  詳細 Mac 或各種 Linux 的安裝，可以瀏覽
-   `網路核心安裝網頁 <https://www.microsoft.com/net/core>`__\ 。
+-  開發軟體 Visual Studio
+   的介紹，請前往\ `官方網頁 <https://www.visualstudio.com/zh-hant/>`__\ 。
+-  詳細 Mac 或各種 Linux
+   的安裝，可以瀏覽\ `網路核心安裝網頁 <https://www.microsoft.com/net/core>`__\ 。
