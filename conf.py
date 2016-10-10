@@ -24,7 +24,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if on_rtd: 			# Various settings to pass to templates:
     html_context = {
-    	"google_analytics_id" : '',
+    	"google_analytics_id" : 'UA-85199427-4',
     	"disqus_shortname" : 'ncbf',
     }
     html_theme = 'default'
