@@ -8,7 +8,7 @@
 
 .. raw:: html
 
-   <script data-gist-id="9574f52eb2eab7e9dfe77452bcf23581" gist-enable-cache="true"></script>
+   <script data-gist-id="9574f52eb2eab7e9dfe77452bcf23581" data-gist-file="bubble_tea.txt" gist-enable-cache="true"></script>
 
 這就是一個程式了！很簡單吧。如果我們要從這個點出發，我們可以思考兩件事情，為什麼要寫程式以及要怎麼寫程式。
 
