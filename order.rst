@@ -57,8 +57,17 @@
 
    圖 1: 加入新類別檔案（Order.cs）
 
-之後在出現的新檔案視窗中貼上以下程式碼檔案內容。
+之後在出現的新檔案視窗中貼上以下程式碼檔案內容。在這個檔案中有兩個類別，分別叫做 Order 和 OrderGluer，而我們的程式中卻只有呼叫到 OrderGluer 的原因很複雜，但是目前對於初學者來說，重要的是瞭解 Order 這個類別就好，也就是下方標記的這幾行程式碼。
 
 .. raw:: html
 
-   <script data-gist-id="9574f52eb2eab7e9dfe77452bcf23581" data-gist-file="Order.cs" gist-enable-cache="true"></script>
+   <script data-gist-id="9574f52eb2eab7e9dfe77452bcf23581" data-gist-file="Order.cs" gist-enable-cache="true" data-gist-highlight-line="6-13"></script>
+
+其中第六行我們看到了類似的關鍵字，也就是 ``public class``\ ，正如我們之前提過的一樣，表示接下來的內容為一個公開的類別，其中成員包含著第8到12行這些資料項目，分別是數字 Id、數字 Quantity、數字 Subtotal，字串 Item，以及時間 Date。而在每一個名稱後面都有 ``{ set; get; }``\ 這樣的內容表示它們都可以被公開設定資料或送出資料。這是一個非常標準的寫法，甚至是一個非常專業的寫法，但其實並不困難，不是嗎？
+
+而後面的另外一個類別 OrderGluer 將剛剛的第一個類別內容拿來使用，包含第19行開始的設定資料，以及第33行開始的儲存資料到硬碟檔案裡面，這樣的東西雖然不是目前的重點項目，對於初學者來說也還太困難，但是當我們想要調整這樣子的程式碼內容時，卻不會非常困難，學完整個內容之後再回頭來看看這個類別的內容，一定可以輕易調整成需要的樣子。在這裡提供全部的\ `程式碼內容下載 <_static/OrderApp.zip>`__\ 。
+
+.. rubric:: 其他參考網站
+
+-  參照官方文件中的 `do...while <https://msdn.microsoft.com/zh-tw/library/370s1zax(v=vs.140).aspx>`__ 說明段落，以及\ `單獨 while <https://msdn.microsoft.com/zh-tw/library/2aeyhxcd(v=vs.140).aspx>`__ 的部分文件
+-  還有迴圈的\ `簡介摘要 <https://msdn.microsoft.com/zh-tw/library/f0e10e56%28v=vs.90%29.aspx>`__\ ，也是另外一個參考項目
